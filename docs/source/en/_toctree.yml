@@ -682,6 +682,8 @@
         title: TrOCR
       - local: model_doc/tvlt
         title: TVLT
+      - local: model_doc/xclip
+        title: X-CLIP
       - local: model_doc/vilt
         title: ViLT
       - local: model_doc/vision-encoder-decoder
@@ -690,8 +692,6 @@
         title: Vision Text Dual Encoder
       - local: model_doc/visual_bert
         title: VisualBERT
-      - local: model_doc/xclip
-        title: X-CLIP
       title: Multimodal models
     - isExpanded: false
       sections:
