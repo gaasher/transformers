@@ -336,7 +336,7 @@ jobs:
           echo "Setup status: ${{ needs.setup.result }}"
 
       - uses: actions/checkout@v3
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
 
       # Create a directory to store test failure tables in the next step
       - name: Create directory
